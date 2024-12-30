@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Feature Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="feature-card" id="reminder-card">
+            <h3>Recurring Monthly Reminders</h3>
+            <p>Set up automatic reminders for tenants about upcoming rent payments.</p>
+            <button onclick="showDetails('reminder')">View Details</button>
+            <div class="details" id="reminder-details">
+                <p>Tenants receive SMS and email notifications 7 days before the due date, ensuring timely payments.</p>
+            </div>
+        </div>
+
+        <div class="feature-card" id="ai-card">
+            <h3>AI-based Tenant Recommendation</h3>
+            <p>AI-driven algorithms suggest the best tenants based on preferences and history.</p>
+            <button onclick="showDetails('ai')">View Details</button>
+            <div class="details" id="ai-details">
+                <p>Enhance tenant matching accuracy and reduce vacancy times using predictive analytics.</p>
+            </div>
+        </div>
+
+        <div class="feature-card" id="review-card">
+            <h3>Tenant Reviews and Complaints</h3>
+            <p>Allow tenants to leave reviews and complaints, visible to future tenants.</p>
+            <button onclick="showDetails('review')">View Details</button>
+            <div class="details" id="review-details">
+                <p>Let new tenants make informed decisions based on previous renters' experiences and feedback.</p>
+            </div>
+        </div>
+
+        <div class="feature-card" id="property-search-card">
+            <h3>Property Search & Filtering</h3>
+            <p>Let tenants search properties based on their preferences and budget.</p>
+            <button onclick="showDetails('property-search')">View Details</button>
+            <div class="details" id="property-search-details">
+                <p>Advanced filters for price, location, size, and other factors, ensuring a smooth search experience.</p>
+            </div>
+        </div>
+
+        <div class="feature-card" id="payment-integration-card">
+            <h3>Secure Payment Integration</h3>
+            <p>Integrate payment systems like Stripe or Razorpay for hassle-free rent payments.</p>
+            <button onclick="showDetails('payment-integration')">View Details</button>
+            <div class="details" id="payment-integration-details">
+                <p>Tenants can pay rent with just a few clicks, while landlords receive payments directly in their accounts.</p>
+            </div>
+        </div>
+
+        <div class="feature-card" id="multi-property-management-card">
+            <h3>Multi-Property Management</h3>
+            <p>Enable landlords to manage multiple properties under one account.</p>
+            <button onclick="showDetails('multi-property-management')">View Details</button>
+            <div class="details" id="multi-property-management-details">
+                <p>Keep track of each property's details, payments, and tenants in one convenient dashboard.</p>
+            </div>
+        </div>
+
+        <div class="feature-card" id="user-friendly-interface-card">
+            <h3>User-Friendly Interface</h3>
+            <p>Design with intuitive navigation to make property management seamless.</p>
+            <button onclick="showDetails('user-friendly-interface')">View Details</button>
+            <div class="details" id="user-friendly-interface-details">
+                <p>Easy-to-navigate dashboard and features that are accessible to users of all experience levels.</p>
+            </div>
+        </div>
+
+        <div class="feature-card" id="analytics-card">
+            <h3>Property & Tenant Analytics</h3>
+            <p>Provide real-time analytics on property performance and tenant behaviors.</p>
+            <button onclick="showDetails('analytics')">View Details</button>
+            <div class="details" id="analytics-details">
+                <p>Landlords can track rental income, occupancy rates, and other vital metrics to optimize their business.</p>
+            </div>
+        </div>
+
+        <div class="feature-card" id="transaction-history-card">
+            <h3>Transaction History</h3>
+            <p>Maintain detailed records of all rent payments and transactions.</p>
+            <button onclick="showDetails('transaction-history')">View Details</button>
+            <div class="details" id="transaction-history-details">
+                <p>Access to a clear and easy-to-read history of all past transactions, payment statuses, and any outstanding balances.</p>
+            </div>
+        </div>
+
+        <div class="feature-card" id="real-time-notifications-card">
+            <h3>Real-Time Notifications</h3>
+            <p>Send instant notifications about rent payments, property updates, and more.</p>
+            <button onclick="showDetails('real-time-notifications')">View Details</button>
+            <div class="details" id="real-time-notifications-details">
+                <p>Both landlords and tenants can receive push notifications, emails, and SMS to stay updated.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
